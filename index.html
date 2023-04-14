@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <title>Weather Check</title>
+</head>
+<body>
+    <header class="container-fluid text-center">
+        <h1 id="title">Weather Check</h1>
+        <p id="about-us">How About that Weather!</p>
+
+    </header>
+    
+    <form class="box is-full container">
+        <div class="field">
+          <label class="label">City</label>
+          <div class="control">
+            <input class="input" name="city" id="city" type="text" placeholder="Cleveland"/>
+            <div class="field">
+                <label class="label">State</label>
+                <div class="select state">
+                 <select id="selectState">
+                   <option>Alabama</option>
+                   <option>Alaska</option>
+                   <option>Arizona</option>
+                   <option>Arkansas</option>
+                   <option>California</option>
+                   <option>Colorado</option>
+                   <option>Connecticut</option>
+                   <option>Delaware</option>
+                   <option>Florida</option>
+                   <option>Georgia</option>
+                   <option>Hawaii</option>
+                   <option>Idaho</option>
+                   <option>Illinois</option>
+                   <option>Indiana</option>
+                   <option>Iowa</option>
+                   <option>Kansas</option>
+                   <option>Kentucky</option>
+                   <option>Louisiana</option>
+                   <option>Maine</option>
+                   <option>Maryland</option>
+                   <option>Massachusetts</option>
+                   <option>Michigan</option>
+                   <option>Minnesota</option>
+                   <option>Mississippi</option>
+                   <option>Missouri</option>
+                   <option>Montana</option>
+                   <option>Nebraska</option>
+                   <option>Nevada</option>
+                   <option>New Hampshire</option>
+                   <option>New Jersey</option>
+                   <option>New Mexico</option>
+                   <option>New York</option>
+                   <option>North Carolina</option>
+                   <option>North Dakota</option>
+                   <option>Ohio</option>
+                   <option>Oklahoma</option>
+                   <option>Oregon</option>
+                   <option>Pennsylvania</option>
+                   <option>Rhode Island</option>
+                   <option>South Carolina</option>
+                   <option>South Dakota</option>
+                   <option>Tennessee</option>
+                   <option>Texas</option>
+                   <option>Utah</option>
+                   <option>Vermont</option>
+                   <option>Virginia</option>
+                   <option>Washington</option>
+                   <option>West Virginia</option>
+                   <option>Wisconsin</option>
+                   <option>Wyoming</option>
+                 </select>
+               </div>	 
+            <button class="submit is-primary">Search</button>
+          </div>
+        </div>
+    </form>
+
+    <div id="weatherDisplay">    
+    </div>
+
+        <div id="fiveDay">
+            <h3 id="fiveDayTitle">Here's What Weather is Looking Like this Week:</h3>
+
+        </div>
+    </div>
+</body>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="./assets/script.js"></script>
+</html>

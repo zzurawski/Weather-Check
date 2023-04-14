@@ -1,0 +1,14 @@
+header {
+    color: rgb(13, 65, 65);
+    background-color: rgb(124, 189, 209);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#title {
+    font-size: 72px;
+    font-style: oblique;
+}
+
+#about-us {
+    font-style: italic;
+}
